@@ -9,9 +9,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializer;
 
 /**
- * @author sherry
+ * @author wangpingfei
  * @description
- * @date Create in 2019/12/7
+ * @date Create in 2020/03/04
  * @modified By:
  */
 @Configuration
