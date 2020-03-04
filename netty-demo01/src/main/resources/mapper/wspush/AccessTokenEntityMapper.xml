@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhangln.push.wspush.mapper.AccessTokenMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhangln.push.wspush.entity.AccessTokenEntity">
+        <id column="pk_id" property="pkId" />
+        <result column="token" property="token" />
+        <result column="client_type" property="clientType" />
+        <result column="access_key" property="accessKey" />
+        <result column="create_time" property="createTime" />
+        <result column="exp_time" property="expTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        pk_id, token, client_type, access_key, create_time, exp_time
+    </sql>
+
+</mapper>
